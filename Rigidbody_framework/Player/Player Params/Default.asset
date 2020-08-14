@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 855877d19fad8cc40a302ec574250e2f, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  moveDirection: {x: 0, y: 0, z: 0}
+  magnitude: 0
+  walkSpeed: 5
+  runSpeed: 12
+  fallingMoveSpeed: 6
+  maxVelocityChange: 5000
+  jumpHeight: 3.25
+  gravity: 8
+  leftWallHit: 0
+  rightWallHit: 0
+  wallRunSpeed: 10
+  wallRunAngle: 35
+  gravityCounterForce: 15
+  wallRunForceAppliedTime: 0.65
+  wallJumpForce: 12
+  wallJumpAngle: 60
+  wallRunAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: -0.35438177
+      outSlope: -0.35438177
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.32051033
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.9980845
+      value: 0.0047382116
+      inSlope: -0.011780986
+      outSlope: -0.011780986
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  isGrounded: 1
+  isColliding: 1
+  playerHeight: 2
+  player: {fileID: 0}
+  rigidBody: {fileID: 0}
+  transform: {fileID: 0}
